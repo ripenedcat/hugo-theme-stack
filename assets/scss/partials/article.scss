@@ -295,3 +295,15 @@
         }
     }
 }
+//===============================
+//Reduce Font Size of Code Blocks
+/* 左列行号 */
+.chroma .lntd, .chroma .lntd pre, .chroma .ln {
+    font-size: 14px;
+    font-family: var(--code-font-family);
+}
+/* 右列代码 */
+.chroma code, .chroma pre {
+    font-size: 14px;
+    font-family: var(--code-font-family);
+}
